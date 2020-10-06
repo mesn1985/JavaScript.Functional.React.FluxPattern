@@ -14,3 +14,7 @@ I created this project during a 5ECTS javascript course, where the assignment wa
 with an API  that provided weather data. The caveeat is that the API only delivered data unfiltered.
 Therefor alot of filtering is done in the filterWeatherdata class which still needs refactoring,
 due to project deadline.
+
+The API interacted with is not owned by me and is therefor not included.
+I can  be mocked by applying changes to the  WeatherForecaseService and WeatherHistoryService
+in the /models/fetch folder
