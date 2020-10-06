@@ -16,5 +16,5 @@ Therefor alot of filtering is done in the filterWeatherdata class which still ne
 due to project deadline.
 
 The API interacted with is not owned by me and is therefor not included.
-I can  be mocked by applying changes to the  WeatherForecaseService and WeatherHistoryService
+It can  be mocked by applying changes to the  WeatherForecaseService and WeatherHistoryService
 in the /models/fetch folder
