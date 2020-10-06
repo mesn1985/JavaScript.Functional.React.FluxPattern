@@ -1,5 +1,5 @@
 In this project, i experimented with React functional components and redux datastore:
-  - no taxonomy/levels (no used of props or state)
+  - no taxonomy/levels (no use of props or state)
   - All components are Idempotent and respond in accordance to propegated data store state changes
   - no component use lifecycle methods
   - no component uses state/hooks
