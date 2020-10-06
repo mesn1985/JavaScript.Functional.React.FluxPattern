@@ -8,32 +8,32 @@ function history_component({fromDate,toDate,history}){
         let numberOfDays = Math.round(daysBetween(fromDate,toDate))
         return(
             <div className="container">
-            <Table striped bordered hover>
-            <thead>
-              <tr>
-                <th>Mesaurement</th>
-                <th>value, for {numberOfDays} days</th>
+            <Table>
+            <thead className="thead-dark">
+              <tr scope="row">
+                <th scope="col">Mesaurement</th>
+                <th scope="col">value, for {numberOfDays} days</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Highst Temprature</td>
+                <th scope="row">Highst Temprature</th>
                 <td>{history.highstTemp}</td>
               </tr>
               <tr>
-                <td>Lowst Temprature</td>
+                <th scope="row">Lowst Temprature</th>
                 <td>{history.lowstTemp}</td>
               </tr>
               <tr>
-                <td>Total precip</td>
+                <th scope="row">Total precip</th>
                 <td>{history.totalPrecip}</td>
               </tr>
               <tr>
-                <td>Dominant wind direction</td>
+                <th scope="row">Dominant wind direction</th>
                 <td>{history.dominantWindDirection}</td>
               </tr>
               <tr>
-                <td>Average Cloud coverage</td>
+                <th scope="row">Average Cloud coverage</th>
                 <td>{history.avgCloudCov}</td>
               </tr>
               

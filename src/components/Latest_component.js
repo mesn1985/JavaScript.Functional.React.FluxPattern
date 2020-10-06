@@ -7,28 +7,28 @@ function latest_component({latestData}){
      
      return(
         <div className="container">
-        <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>Latest Mesaurement</th>
-            <th>value</th>
+        <Table>
+        <thead className="thead-dark">
+          <tr scope="row">
+            <th scope="col">Latest Mesaurement</th>
+            <th scope="col">value</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Temprature</td>
+          <tr scope="row">
+            <th>Temprature</th>
             <td>{latestData.temprature}</td>
           </tr>
-          <tr>
-            <td>precip</td>
+          <tr scope="row">
+            <th>precip</th>
             <td>{latestData.precition}</td>
           </tr>
-          <tr>
-            <td>wind</td>
+          <tr scope="row">
+            <th>wind</th>
             <td>{latestData.wind}</td>
           </tr>
-          <tr>
-            <td>Cloud coverage</td>
+          <tr scope="row">
+            <th>Cloud coverage</th>
             <td>{latestData.cloud}</td>
           </tr>
           

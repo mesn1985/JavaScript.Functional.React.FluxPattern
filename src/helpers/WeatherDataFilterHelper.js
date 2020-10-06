@@ -1,5 +1,6 @@
 import DateInterval from '../models/common/DateInterval'
-import {dataType} from '../constants/dataType' 
+import {dataType} from '../constants/dataType'
+import {dataMessageStrings} from '../constants/Messages' 
 
 const filterForInterval = (state, weatherHistory) => {
     const interval = new DateInterval(state.fromDate, state.toDate)
@@ -25,14 +26,14 @@ function getHighstTemprature(historyArray){
     const highstTemp = Math.max(...historyArray.map(weather => weather.value()))
 
     if(isNaN(highstTemp)||!isFinite(highstTemp))
-        return 'No data'
+        return  dataMessageStrings.noDataFound()
     return highstTemp
 }
 function getLowstTemprature(historyArray){
     const lowstTemp = Math.min(...historyArray.map(weather => weather.value()))
 
     if(isNaN(lowstTemp)||!isFinite(lowstTemp))
-        return 'No data'
+        return  dataMessageStrings.noDataFound()
     return lowstTemp
 }
 function getTotalPrecipitation(history){
@@ -51,7 +52,7 @@ function getDominantWindType(history){
         .reduce((prev, next) => {
             prev[next] = (prev[next] + 1) || 1
             return prev
-        }, { 'No Data': 0 })
+        }, { [ dataMessageStrings.noDataFound()]: 0 })
     const dominantWindDirection = Object
         .keys(windOccourences)
         .reduce((preVkey, nextKey) => windOccourences[preVkey] > windOccourences[nextKey] ? preVkey : nextKey)
@@ -60,7 +61,7 @@ function getDominantWindType(history){
 function getAverageCloudCoverage(history){
     const cloudArray = history.data()
     return  cloudArray
-            .reduce((acc, value) => { return acc + value.value() }, 0) / cloudArray.length || 'No data'
+            .reduce((acc, value) => { return acc + value.value() }, 0) / cloudArray.length || dataMessageStrings.noDataFound()
 }
 const filterForLatestMeasureMents = (state, weatherHistory) => {
     const city = state.city
@@ -127,7 +128,7 @@ function getObjectWithHighstDate(weatherHistory, dataType) {
     const history = weatherHistory.forType(dataType).data()
 
     if (history.length === 0)
-        return 'No Data'
+        return  dataMessageStrings.noDataFound()
 
     return weatherHistory
         .forType(dataType)

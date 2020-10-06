@@ -10,7 +10,6 @@ import reducer from './reducers/Reducer'
 
 export default function configurationStore(initialState=defaultState){
 return createStore(
-        // rootReducer,
         reducer,
         initialState,
         applyMiddleware(thunk)
