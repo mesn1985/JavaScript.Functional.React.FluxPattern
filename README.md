@@ -4,7 +4,7 @@ In this project, i experimented with React functional components and redux datas
   - no component use lifecycle methods
   - no component uses state/hooks
   
-What this project is not:
+**What this project is not:**
   - and example of good UI implementation.
   - example of best pratices, No CSS file used
   - best pratice in clean code
