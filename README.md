@@ -5,9 +5,9 @@ In this project, i experimented with React functional components and redux datas
   - no component uses state/hooks
   
 **What this project is not:**
-  - and example of good UI implementation.
-  - example of best pratices, No CSS file used
-  - best pratice in clean code
+  - example of good UI implementation.
+  - example of best pratice.
+  - best pratice in clean code.
 
 
 I created this project during a 5ECTS javascript course, where the assignment was to interact
