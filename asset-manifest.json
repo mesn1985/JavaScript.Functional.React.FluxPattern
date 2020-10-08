@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/JavaScript.Functional.React.FluxPattern/static/css/main.5e4e9510.chunk.css",
+    "main.js": "/JavaScript.Functional.React.FluxPattern/static/js/main.48e529dd.chunk.js",
+    "main.js.map": "/JavaScript.Functional.React.FluxPattern/static/js/main.48e529dd.chunk.js.map",
+    "runtime-main.js": "/JavaScript.Functional.React.FluxPattern/static/js/runtime-main.55323d2a.js",
+    "runtime-main.js.map": "/JavaScript.Functional.React.FluxPattern/static/js/runtime-main.55323d2a.js.map",
+    "static/css/2.3e972cad.chunk.css": "/JavaScript.Functional.React.FluxPattern/static/css/2.3e972cad.chunk.css",
+    "static/js/2.9c9eeb74.chunk.js": "/JavaScript.Functional.React.FluxPattern/static/js/2.9c9eeb74.chunk.js",
+    "static/js/2.9c9eeb74.chunk.js.map": "/JavaScript.Functional.React.FluxPattern/static/js/2.9c9eeb74.chunk.js.map",
+    "index.html": "/JavaScript.Functional.React.FluxPattern/index.html",
+    "precache-manifest.19f3fb21c052454aa03b33fabe8ca0cd.js": "/JavaScript.Functional.React.FluxPattern/precache-manifest.19f3fb21c052454aa03b33fabe8ca0cd.js",
+    "service-worker.js": "/JavaScript.Functional.React.FluxPattern/service-worker.js",
+    "static/css/2.3e972cad.chunk.css.map": "/JavaScript.Functional.React.FluxPattern/static/css/2.3e972cad.chunk.css.map",
+    "static/css/main.5e4e9510.chunk.css.map": "/JavaScript.Functional.React.FluxPattern/static/css/main.5e4e9510.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55323d2a.js",
+    "static/css/2.3e972cad.chunk.css",
+    "static/js/2.9c9eeb74.chunk.js",
+    "static/css/main.5e4e9510.chunk.css",
+    "static/js/main.48e529dd.chunk.js"
+  ]
+}
