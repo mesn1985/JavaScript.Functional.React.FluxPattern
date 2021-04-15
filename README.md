@@ -17,4 +17,4 @@ due to project deadline.
 
 The API interacted with is not owned by me and is therefor not included.
 It can  be mocked by applying changes to the  WeatherForecaseService and WeatherHistoryService
-in the /models/fetch folder
+in the /models/fetch folder or simply using jsonDB
